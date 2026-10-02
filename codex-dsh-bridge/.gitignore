@@ -1,0 +1,4 @@
+bridge.config.json
+state/
+*.log
+node_modules/

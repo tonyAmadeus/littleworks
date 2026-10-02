@@ -1,0 +1,5 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict');
+const {replace}=require('./atomic-json.cjs');
+test('temporary Windows read sharing failures retry the same atomic rename without touching the old target',()=>{let attempts=0,waits=0;const calls=[];replace('saved.tmp','status.json',{io:{renameSync:(a,b)=>{calls.push([a,b]);if(attempts++<2)throw Object.assign(Error('shared'),{code:'EPERM'});}},pause:()=>waits++});assert.equal(attempts,3);assert.equal(waits,2);assert.ok(calls.every(([a,b])=>a==='saved.tmp'&&b==='status.json'));});
+test('permanent failures remain visible and retries are bounded',()=>{let attempts=0;assert.throws(()=>replace('a','b',{io:{renameSync:()=>{attempts++;throw Object.assign(Error('locked'),{code:'EACCES'});}},pause:()=>{},attempts:3}),/locked/);assert.equal(attempts,3);assert.throws(()=>replace('a','b',{io:{renameSync:()=>{throw Object.assign(Error('invalid path'),{code:'ENOENT'});}},pause:()=>assert.fail('Do not retry unrelated failures')}),/invalid path/);});

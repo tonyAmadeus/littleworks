@@ -1,0 +1,8 @@
+{
+  "name": "codex-dsh-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Windows local dialogue bridge for Codex Desktop and DeepSeek Harness Desktop",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node test.cjs", "doctor": "node setup.cjs doctor" }
+}

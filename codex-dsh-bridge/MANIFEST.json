@@ -1,0 +1,353 @@
+{
+  "name": "codex-dsh-bridge",
+  "version": "0.1.0",
+  "builtAt": "2026-10-02T06:48:09.621409+00:00",
+  "privateRuntimeDataIncluded": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 46,
+      "sha256": "6b7dbb3e640e7b565b20d7ad6f48fd8656b6b0710aacff3846ca2d28efba8e0c"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 459,
+      "sha256": "77aad153e374f4fb93d8e0ccbb28b030e4a3e81e47d9b8101fbe62fd85e61c34"
+    },
+    {
+      "path": "channel.cmd",
+      "bytes": 169,
+      "sha256": "3132dc9e505a4a47111e8bf625dbd52fb900c7fb96734d055216c752ed771949"
+    },
+    {
+      "path": "config.example.json",
+      "bytes": 163,
+      "sha256": "e15f7cfab0c0c1b99d454074d15842968b2915f8ccab86ef13a2fd43d150910e"
+    },
+    {
+      "path": "distribution.test.cjs",
+      "bytes": 7238,
+      "sha256": "67b689bc21b2e4a03fd89f148ab265f972b226e9c053d6af567c32f9ad581e31"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 1831,
+      "sha256": "86b4562cae700b06eef0d53f4a4cde53ddbd780ffb6f67a97d8c8a926a316858"
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "bytes": 3640,
+      "sha256": "ef1d114dba05131e72b881b85caf2bd43e956c26caee0a84a6cd15e437588f5f"
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "bytes": 2022,
+      "sha256": "994992a7caeac539c7e7959a8ecd390ace69606e538839374c95be6dff008f3e"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "bytes": 2956,
+      "sha256": "d5966463297fff5740e63259ca2e029b9647706bde281fb2ab577e189e214b43"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 1611,
+      "sha256": "bb03bc6e61ce55a4b71afaecdc1b7b68dfe507c9538af04b59922361ce000755"
+    },
+    {
+      "path": "dsh/gpt-dialogue-channel.cjs",
+      "bytes": 920,
+      "sha256": "8bcea57fbb27dfe97c8ab260a03f7b76cfba6abee00bc3d4d21a06ec8a6e1f8c"
+    },
+    {
+      "path": "dsh/gpt-dialogue-client-0.1.0.mjs",
+      "bytes": 2782,
+      "sha256": "cf55578073e7d48ae07f0fbc613c8b274af267aeb9ebc0e9e2662ccf25c0ff5f"
+    },
+    {
+      "path": "dsh/gpt-dialogue-context.cjs",
+      "bytes": 637,
+      "sha256": "0a65c5377faffb247c2bd392a5608ca9b4e1d7ecd517b2baa0a9ffcd1ce9c1e4"
+    },
+    {
+      "path": "dsh/gpt-dialogue-display.cjs",
+      "bytes": 4510,
+      "sha256": "6be81dce70b85f81339ad831d7a545ec3be1cd7721b13baa9fa696a40a46b86f"
+    },
+    {
+      "path": "dsh/gpt-dialogue-mcp.cjs",
+      "bytes": 7302,
+      "sha256": "73866ae1ec6614e60be1d75933c8ce3ad5e9a74968f183f832f614b61c480090"
+    },
+    {
+      "path": "dsh/send_to_gpt.cjs",
+      "bytes": 5609,
+      "sha256": "f43905fc9aa9213a06f0798844eeb463ee5ec345f9b41f5b4be135dfd90cfb55"
+    },
+    {
+      "path": "dsh/send_to_gpt.ps1",
+      "bytes": 4433,
+      "sha256": "ef1d4effb0fcabd033f8eddb585091e0f9b0a4dd52f862f7827d9c459c085b39"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 647,
+      "sha256": "f2b042bf0b6285181be8dc9cd1fa23505d7c48976121d9758a47fd3b13843cfb"
+    },
+    {
+      "path": "package.json",
+      "bytes": 281,
+      "sha256": "c9ab47325268a7ca6791064d49a618b18cee2a080bf17033ab8c799e6e6b94ba"
+    },
+    {
+      "path": "profile.cjs",
+      "bytes": 1832,
+      "sha256": "458182b54d1842137edb3d65bd3c1cfa8d76d5dc9417479c2c93e1da08a1963b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4971,
+      "sha256": "05a32a4bcce5ef03edc13f649f3184b48a62405329cee79fa0c7905b10753f5c"
+    },
+    {
+      "path": "run-channel.cjs",
+      "bytes": 494,
+      "sha256": "4abef2b1c331b0747ca80652393103b6232c80b2f7a7201342e7a1a4ee6d67a4"
+    },
+    {
+      "path": "runtime/atomic-json.cjs",
+      "bytes": 777,
+      "sha256": "99b9f1018e187c3a056e450cba805c41df49e237b356101975ada8325d2519a4"
+    },
+    {
+      "path": "runtime/atomic-json.test.cjs",
+      "bytes": 1031,
+      "sha256": "4c9f7f199f0a332f0fe333613594413ea73ff787a659d8c248789bb3defc38f7"
+    },
+    {
+      "path": "runtime/bridge.cjs",
+      "bytes": 13458,
+      "sha256": "4d5f7124d4492ecf23a2e941bc62086af406ae5f097d587a4b4b60d322785dce"
+    },
+    {
+      "path": "runtime/channel-ipc.cjs",
+      "bytes": 2721,
+      "sha256": "ecfecd676ef3f38c9d4340649be9cc475fdba0b07ac3664627ccd3d3ec1eeee5"
+    },
+    {
+      "path": "runtime/channel-manager.cjs",
+      "bytes": 20426,
+      "sha256": "f2bfbcd2c06300bbd1b5ba6021972bc867fbd223ef436faa01254f7aeec4d735"
+    },
+    {
+      "path": "runtime/channel-manager.test.cjs",
+      "bytes": 18446,
+      "sha256": "30838581b03f82f6b6294d72b4e2629c02032a5b18b0a7a1d8a76b7ea6651eee"
+    },
+    {
+      "path": "runtime/channel-service.cjs",
+      "bytes": 8135,
+      "sha256": "35702fdbe7cb2d9f9ac395d011f418376581fe5820645c05a3f2c62fb79f7bdc"
+    },
+    {
+      "path": "runtime/channel.cjs",
+      "bytes": 1406,
+      "sha256": "f6ecb81f7a364b1bfce1ed7eb70d767a4bc71144f34e999e102d36c8cf22c810"
+    },
+    {
+      "path": "runtime/chat-controls.cjs",
+      "bytes": 2195,
+      "sha256": "be914df9dafc783bd5af3f1eb0923ca1872dbcaa56404c3e38a566d1890a0a49"
+    },
+    {
+      "path": "runtime/chat-lifecycle.cjs",
+      "bytes": 5722,
+      "sha256": "b08bbb4f198d49696bcf0240f2faba7cf1b7e59889a40022d6c68ba17ce638b4"
+    },
+    {
+      "path": "runtime/chat-lifecycle.test.cjs",
+      "bytes": 13953,
+      "sha256": "a3f53149789341acc92e9d63ba8f9e52eebb35c164224750f931275c2f1c9863"
+    },
+    {
+      "path": "runtime/codex-client.cjs",
+      "bytes": 3349,
+      "sha256": "a77045e11227848d075569a6331d18256e567b4b3e200601e4976f7b93b1278a"
+    },
+    {
+      "path": "runtime/command-prefix.cjs",
+      "bytes": 2043,
+      "sha256": "45705309a1b8fc7bf844c70857715fc1a957c14fe06da6330425ce48dacaaaab"
+    },
+    {
+      "path": "runtime/command-prefix.test.cjs",
+      "bytes": 5843,
+      "sha256": "15506626e645975022c931706bfbe92422cd5470a7bce2944b20fbaac73a68c6"
+    },
+    {
+      "path": "runtime/config.cjs",
+      "bytes": 2707,
+      "sha256": "e6dba067f89e5514573b2f5f19d3f6060482f9c91670f034b9a6cadadc86cba1"
+    },
+    {
+      "path": "runtime/dialogue.cjs",
+      "bytes": 11180,
+      "sha256": "d406fc27445eaf413c318ee189acc8a44a801a1fa9c22970741775a42bd7dccd"
+    },
+    {
+      "path": "runtime/dsh-command-prefix.cjs",
+      "bytes": 2538,
+      "sha256": "0bab225c61c5456fe5d0697e991ca96bcac64dba633291d8806e2797f63206d5"
+    },
+    {
+      "path": "runtime/dsh-command-prefix.test.cjs",
+      "bytes": 4810,
+      "sha256": "b5e4386546a8ef1b358ac852fd0c12c59268d2b944e989e7811b8982174bea9b"
+    },
+    {
+      "path": "runtime/event-relay.cjs",
+      "bytes": 1623,
+      "sha256": "d75ee82d67566e5d11ae11ec3850ad9088062b3f8741371cfe24f26408175545"
+    },
+    {
+      "path": "runtime/event-relay.test.cjs",
+      "bytes": 1349,
+      "sha256": "29ba9e0e563c0e40c5b04d8645f843c90b1c010b7e1981f3a8ce19bf22f0ae79"
+    },
+    {
+      "path": "runtime/global-inbox-policy.cjs",
+      "bytes": 2621,
+      "sha256": "e4b9475b1bedf43d5604c8e02c8095519c28e118ec879880d968381774b91948"
+    },
+    {
+      "path": "runtime/global-inbox.test.cjs",
+      "bytes": 5827,
+      "sha256": "e613022df36b3baad7faa86eaef6701c134fcef22f919665af9db824974f31c4"
+    },
+    {
+      "path": "runtime/mailbox.cjs",
+      "bytes": 8011,
+      "sha256": "88e6e01c331831f91c9851c2bdd9430bbf9a11d37f3659244140a4a4680a62f4"
+    },
+    {
+      "path": "runtime/mailbox.test.cjs",
+      "bytes": 983,
+      "sha256": "fc78ec23d7370f6a33970da67c9cf54349adaa9b461c543911943863c1711558"
+    },
+    {
+      "path": "runtime/peer-auto-dialogue.cjs",
+      "bytes": 15385,
+      "sha256": "a1f233998273e915a187b9c502ccb9b6fe6e3a64941eb314cd1b998932576bb0"
+    },
+    {
+      "path": "runtime/peer-auto-dialogue.test.cjs",
+      "bytes": 17100,
+      "sha256": "e57cb9873c8370a3fc6d4c64a28fd22a61ae49ce617a3fe30d723ddeca33772b"
+    },
+    {
+      "path": "runtime/peer-clean-dialogue.cjs",
+      "bytes": 4141,
+      "sha256": "78be092fe3a683ff080eed6fc0c1e53535b2380c26863a99603e190b2fd4516e"
+    },
+    {
+      "path": "runtime/peer-clean-dialogue.test.cjs",
+      "bytes": 11424,
+      "sha256": "7e72db491c0213cc668fe15e3440f06bb44c1535cab5edf3bb2d6b1f9212d458"
+    },
+    {
+      "path": "runtime/peer-dialogue-forwarder.cjs",
+      "bytes": 8036,
+      "sha256": "8151743d2087b1f5f8fa999e865c3bcc60151628912a7bb1652526d7a45ada60"
+    },
+    {
+      "path": "runtime/peer-dialogue-state.cjs",
+      "bytes": 10192,
+      "sha256": "5e0257ae500e61a70ead376a592230a5bf5f7cc135c6f43a75dd8bf0629b9620"
+    },
+    {
+      "path": "runtime/peer-dialogue.test.cjs",
+      "bytes": 12973,
+      "sha256": "72646537ff03d95ddeea5e7d0354bc3fd3316ad4f6fe533f3a2b7a85d7dd7029"
+    },
+    {
+      "path": "runtime/peer-dsh-source.cjs",
+      "bytes": 3018,
+      "sha256": "a9f10b650f20e24fcaf2f0643917b268e9552ae15bdea8c0a5a4dfc64f43f808"
+    },
+    {
+      "path": "runtime/peer-dsh-source.test.cjs",
+      "bytes": 11633,
+      "sha256": "933f21698ebcc5b99b9179e1944710373df3bdf16d341a9f7879e5525e16622a"
+    },
+    {
+      "path": "runtime/peer-human-input.cjs",
+      "bytes": 1017,
+      "sha256": "92bf11196c8ba3b3e4ac2baaff017862345b1abea0fe7f326cfbe2d6c2a81f97"
+    },
+    {
+      "path": "runtime/relay-runtime.cjs",
+      "bytes": 16169,
+      "sha256": "210fa2a065833c048fb5eb822df184bef5039e3a84a80aea5b81c447cf6726fe"
+    },
+    {
+      "path": "runtime/relay-runtime.test.cjs",
+      "bytes": 13235,
+      "sha256": "dc5f5e01abe57b6cfb043ecbad6a2da017cdf7b0c40d2a4396bd154b3eff0e58"
+    },
+    {
+      "path": "runtime/reply-forwarder.cjs",
+      "bytes": 5290,
+      "sha256": "85eb2f8f404aa23a76761b6d418ab65161c4e975ab3460d18e5623f5ead6a85a"
+    },
+    {
+      "path": "runtime/routing.cjs",
+      "bytes": 3472,
+      "sha256": "baf30ce7aaf0ea1e839b11c4a667c40a3ee4267653a5a23345b388509ef88e7b"
+    },
+    {
+      "path": "runtime/routing.test.cjs",
+      "bytes": 2849,
+      "sha256": "3730618a63bb98bdf430d790f6cd712397f7c4ef2faf76ca0679f37996d57e3f"
+    },
+    {
+      "path": "setup.cjs",
+      "bytes": 15159,
+      "sha256": "5dc9043b7645e2aca2c6d7ad59fe8785eef7a3a7a11594c3bedfbefde557e8a1"
+    },
+    {
+      "path": "setup.cmd",
+      "bytes": 157,
+      "sha256": "e1c4377af93d423c18daea44911a33e50375b8de9496c882d54a7da7d440eeb7"
+    },
+    {
+      "path": "skills/deepseek-harness-bridge/references/dialogue.md",
+      "bytes": 1864,
+      "sha256": "1a6b0f89b12b39c7bcb5c24a865ba7b3d663a58b3d6f85c9cacfe957a4ad179f"
+    },
+    {
+      "path": "skills/deepseek-harness-bridge/references/installation.md",
+      "bytes": 1256,
+      "sha256": "23d6fb23d7b043a7bd779d9caca541f58dab6ee40d4aefb9d1c113f10ed04f48"
+    },
+    {
+      "path": "skills/deepseek-harness-bridge/scripts/channel.cjs",
+      "bytes": 571,
+      "sha256": "7868a9f4bc58119c6a2b2aeae260a6e706b9d6d16a12f82176f5b865e5ecff0b"
+    },
+    {
+      "path": "skills/deepseek-harness-bridge/scripts/channel.cmd",
+      "bytes": 161,
+      "sha256": "88c87734a4613c6fd74db7d89e06d0312a57d954142a716de4843febf6554a15"
+    },
+    {
+      "path": "skills/deepseek-harness-bridge/SKILL.md",
+      "bytes": 3348,
+      "sha256": "7e11faf2d63b57648b8fa9320c7d7875c7547f7240f3a378d230c2c94f03ad53"
+    },
+    {
+      "path": "test.cjs",
+      "bytes": 1301,
+      "sha256": "08c34ddb0db6e2527e521d68a87c411f96f579ce1994e0a37a752bc5cef80be8"
+    }
+  ]
+}
